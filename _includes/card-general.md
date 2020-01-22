@@ -5,7 +5,7 @@ acquirer will require that you use 3-D Secure for card holder authentication.
 However, if your agreement allows you to make a card payment without this
 authentication, or that specific cards can be declined, you may adjust these
 optional parameters when posting in the payment. This is specified in the
-technical reference section for creating credit card payments – you will find
+Other Features sub-section for creating credit card payments – you will find
 the link in the sequence diagram below." %}
 
 {% include alert.html type="success" icon="link" body="**Defining

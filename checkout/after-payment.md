@@ -50,7 +50,7 @@ in which a successful payment order will result in an authorized transaction –
 that must be followed up by a capture or cancellation transaction in a later
 stage. One-phase payments like Swish are settled directly without the option to
 capture or cancel. For a full list of the available operations, see the
-[techincal reference][payment-order-operations].
+[Other Features sub-section][payment-order-operations].
 
 {:.table .table-striped}
 | Operation                      | Description                                                                                                                                                                                                                                                                    |
