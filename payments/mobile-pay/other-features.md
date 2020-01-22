@@ -676,6 +676,7 @@ The response will be the `payment` resource with its `state` set to `Aborted`.
 [cancellation-transaction]: #cancellations
 [capture-transaction]: #captures
 [capture]: #captures
+[general-http-info]: /resources/
 [payee-reference]: #payeereference
 [reversal-transaction]: #reversals
 [technical-reference-expand]: #expansion

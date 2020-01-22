@@ -194,6 +194,8 @@ payment altogether or creating an authorization transaction through the
 
 {% include settlement-reconciliation.md %}
 
+{% include callback-reference.md payment-instrument="vipps" %}
+
 {% include payment-link.md %}
 
 ### Prices
