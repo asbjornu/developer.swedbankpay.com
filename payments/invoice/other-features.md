@@ -533,6 +533,8 @@ transaction made towards a payment, as previously described.
 
 {% include payment-link.md hide-3d-secure=true %}
 
+{% include expand-parameter.md payment-instrument="invoice" %}
+
 ## PayeeInfo
 
 {% include payee-info.md %}

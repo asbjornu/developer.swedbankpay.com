@@ -153,6 +153,8 @@ for the given operation.
 
 {% include callback-reference.md  payment-instrument="creditaccount" %}
 
+{% include expand-parameter.md payment-instrument="creditaccount" %}
+
 ## PayeeInfo
 
 {% include payee-info.md %}

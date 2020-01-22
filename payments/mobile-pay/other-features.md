@@ -198,7 +198,7 @@ Content-Type: application/json
 Posting a payment (operation `purchase`) returns the options of aborting the
 payment altogether or creating an authorization transaction through the
 `redirect-authorization` hyperlink.
-Use the expand request parameter to get a response that includes one or more
+Use the [expand][technical-reference-expand] request parameter to get a response that includes one or more
 expanded sub-resources inlined.
 
 ```json
@@ -660,6 +660,8 @@ The response will be the `payment` resource with its `state` set to `Aborted`.
 
 {% include prices.md payment-instrument="mobilepay" %}
 
+{% include expand-parameter.md payment-instrument="mobilepay" %}
+
 ## PayeeInfo
 
 {% include payee-info.md %}
@@ -676,5 +678,6 @@ The response will be the `payment` resource with its `state` set to `Aborted`.
 [capture]: #captures
 [payee-reference]: #payeereference
 [reversal-transaction]: #reversals
+[technical-reference-expand]: #expansion
 [transaction-resource]: #transactions
 [user-agent]: https://en.wikipedia.org/wiki/User_agent

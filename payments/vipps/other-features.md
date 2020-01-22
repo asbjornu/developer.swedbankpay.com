@@ -18,10 +18,6 @@ sidebar:
 
 {% include alert-review-section.md %}
 
-{% include settlement-reconciliation.md %}
-
-{% include payment-link.md %}
-
 ## Payment Resource
 
 This section describes the general sub-resources of the API that are used to
@@ -196,9 +192,15 @@ payment altogether or creating an authorization transaction through the
 
 {% include operations-reference.md %}
 
+{% include settlement-reconciliation.md %}
+
+{% include payment-link.md %}
+
 ### Prices
 
 {% include prices.md payment-instrument="vipps" %}
+
+{% include expand-parameter.md payment-instrument="vipps" %}
 
 ### Payee reference
 

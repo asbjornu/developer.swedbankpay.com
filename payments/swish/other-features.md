@@ -168,25 +168,23 @@ Content-Type: application/json
 
 {% include one-click-payments.md %}
 
-{% include payment-link.md %}
+{% include payment-link.md hide-3d-secure=true %}
 
-### Prices
+## Prices
 
 {% include prices.md payment-instrument="swish" %}
 
-### Payee reference
+{% include expand-parameter.md payment-instrument="swish" %}
+
+## PayeeInfo
 
 {% include payee-info.md %}
 
-{% include expand-parameter.md %}
-
-#### Transaction
+### Transaction
 
 {% include transactions-reference.md payment-instrument="swish" %}
 
 {% include callback-reference.md payment-instrument="swish" %}
-
-{% include payment-link.md hide-3d-secure=true %}
 
 ### Problem messages
 
@@ -230,4 +228,5 @@ All Swish error types will have the following URI in front of type:
 | `systemerror`        | 500    | Any other error code |
 
 [payee-reference]: #payeeReference
-[transaction-resource]: #Transactions
+[technical-reference-expand]: #expansion
+[transaction-resource]: #transactions

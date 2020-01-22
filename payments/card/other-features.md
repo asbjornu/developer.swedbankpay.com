@@ -808,6 +808,8 @@ transaction made towards a payment, as previously described.
 
 {% include payment-link.md %}
 
+{% include expand-parameter.md payment-instrument="creditcard" %}
+
 ## PayeeInfo
 
 {% include payee-info.md payment-instrument="creditcard" %}

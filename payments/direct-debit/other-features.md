@@ -26,7 +26,7 @@ sidebar:
 
 {% include abort-reference.md instrument="directdebit" %}
 
-{% include expand-parameter.md %}
+{% include expand-parameter.md payment-instrument="directdebit" %}
 
 {% include payee-info.md %}
 

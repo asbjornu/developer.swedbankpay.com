@@ -736,4 +736,5 @@ Content-Type: application/json
 [capture]: #captures
 [payeeReference]: /payments/vipps/other-features#payee-reference
 [reverse]: #reversals
+[technical-reference-expansion]: /payments/vipps/other-features#expansion
 [transaction]: /payments/vipps/other-features#transactions
