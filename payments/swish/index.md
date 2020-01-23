@@ -61,8 +61,8 @@ operations][after-payment] and the [payment resource][payment-resource].
 ### Certificate
 
 As a part of the setup, you will need a Swish certificate. There are two ways of
-doing this. You can apply for Swish as part of [Swedbank Pay Settlement
-Service][settlement-service]), and utilize the Swedbank Pay Technical Supplier
+doing this. You can apply for Swish as part of Swedbank Pay Settlement
+Service, and utilize the Swedbank Pay Technical Supplier
 Certificate. A [Swedbank Pay sales representative][payex-mailto] can assist you
 with this.
 
@@ -83,6 +83,7 @@ Swish App.
 
 {% include iterator.html  next_href="redirect" next_title="Next: Redirect" %}
 
+[after-payment]: /payments/swish/after-payment
 [danske-bank]: https://danskebank.se/sv-se/foretag/medelstora-foretag/onlinetjanster/pages/swish-handel.aspx
 [handelsbanken]: https://www.handelsbanken.se/sv/foretag/konton-betalningar/ta-betalt/swish-for-foretag
 [Länsförsäkringar]: https://www.lansforsakringar.se/stockholm/foretag/bank/lopande-ekonomi/betalningstjanster/swish-handel/
@@ -90,6 +91,7 @@ Swish App.
 [nordea]: https://www.nordea.se/foretag/produkter/betala/swish-handel.html
 [payex-admin-portal]: https://admin.payex.com/psp/login/
 [payex-mailto]: mailto:sales@payex.com
+[payment-resource]: /payments/swish/other-features#payment-resource
 [SEB-swish]: https://seb.se/foretag/digitala-tjanster/swish-handel
 [sparbanken-oresund]: https://www.sparbankenskane.se/foretag/digitala-tjanster/swish/swish-for-handel/index.htm
 [sparbanken-syd]: https://www.sparbankensyd.se/vardagstjanster/betala/swish-foretag/
@@ -97,5 +99,3 @@ Swish App.
 [swedbank-swish]: https://www.swedbank.se/foretag/betala-och-ta-betalt/ta-betalt/swish/swish-handel/index.htm
 [swish-certificate-management-system]: https://comcert.getswish.net/cert-mgmt-web/authentication.html
 [swish-payment]: /assets/img/payments/swish-redirect-number-input-en.png
-[payment-resource]: /payments/swish/other-features#payment-resource
-[after-payment]: /payments/swish/after-payment
