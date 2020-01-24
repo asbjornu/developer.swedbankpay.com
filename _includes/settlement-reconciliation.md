@@ -110,7 +110,7 @@ body.
 | `Description`                   | `String`   | A textual description of the transaction, as sent by merchant to PayEx.                                                                               |
 | `VAT Amount`                    | `Decimal`  | VAT Amount for the given transaction (e.g 100.00).                                                                                                    |
 | `VAT Percentage`                | `Decimal`  | VAT Percentage for the given transaction.                                                                                                             |
-| `Credit Card Batch Number`      | `Decimal`  | The reference number from the credit card processor.                                                                                                  |
+| `Credit Card Batch Number`      | `Decimal`  | The reference number from the card processor.                                                                                                  |
 | `Direct Debit Bank Reference`   | `Decimal`  | The reference number from the processing bank.                                                                                                        |
 | `Reference`                     | `Decimal`  | The transaction reference from processor.                                                                                                             |
 | `Swedbank Pay Account Number`   | `Decimal`  | The Account number given, shown in Swedbank Pay admin.                                                                                                |
@@ -154,7 +154,7 @@ the information given in the reconciliation files from Swedbank Pay:
    transaction number and is returned from Swedbank Pay after you have created
    the transaction).
 
-A credit card transaction is made when you either make a capture or a reversal.
+A card transaction is made when you either make a capture or a reversal.
 In the input data for making a capture, you will set the `payeeReference`. The
 unique value of this field is the same as the field called `OrderID` in the
 reconciliation file.
@@ -270,8 +270,8 @@ charities.
 
 * Since the sub merchants are connected to Swedbank Pay through the super
   merchant instead of having separate setups, this means that you:
-* Only need one agreement for credit card, direct debit, Vipps, Swish,
-  MobilePay,  invoice, credit account and payment gateway.
+* Only need one agreement for card, direct debit, Vipps, Swish,
+  MobilePay, invoice, credit account and payment gateway.
 * Only need one acquiring agreement.
 * Only need one Vipps/Swish certificate.
 * Can add more payment instruments easily, as it only has to be done once.

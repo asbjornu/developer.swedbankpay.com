@@ -50,7 +50,7 @@ integration validation procedure. These best practices are mentioned below.
   available in the API. Flags that can be turned to `true` must be kept
   `false` as described in this standard setup documentation.
 * When the payer is checked in, he or she must be identified appropriately in
-  the Payment Menu (stored credit cards must be visible for the credit card
+  the Payment Menu (stored credit cards must be visible for the card
   payment instrument, for instance).
 * `orderReference` must be sent as a part of the `POST` request to
   `paymentorders` and must represent the order ID of the webshop or merchant

@@ -25,9 +25,9 @@ transactions can be done.
 ### Transactions
 
 * `ìntialized` is the transaction state when something unexpected occured, and
-it is impossible to determine the exact status of the transaction. An example of
-this can be a network failure. No further actions can be done on a payment with a transaction in
-this state.
+  it is impossible to determine the exact status of the transaction. An example
+  of this can be a network failure. No further actions can be done on a payment
+  with a transaction in this state.
 
 * `completed` means that the transaction has reached its intended purpose. An
 `authorization` will be `completed` when the funds have been authorized, a
@@ -35,9 +35,10 @@ this state.
 will be `completed` when the payer has been refunded.
 
 * `failed` means that the transaction has `failed`. The state is final for that
-specific transaction, but given that the payment is operational, it is possible to perform more transactions on the same payment, i.e. retry the authorization
-with another card. If the payer reaches the maximum amount of retries, the
-payment itself will be set to `failed`.
+  specific transaction, but given that the payment is operational, it is
+  possible to perform more transactions on the same payment, i.e. retry the
+  authorization with another card. If the payer reaches the maximum amount of
+  retries, the payment itself will be set to `failed`.
 
 * `awaitingActivity` is in use for a selection of payment instruments. A
 transaction reaches this state when a payer is sent away from Swedbank Pay to do

@@ -139,7 +139,7 @@ After creating a payment, you can:
   possible to `abort` a payment before the end user has completed the payment
   process. And either:
 * Capture funds. Before delivering the merchandise you need to create a capture
-  transaction to ensure that the money is charged from the consumer credit card
+  transaction to ensure that the money is charged from the consumer's card
   or properly billed by invoice. One-phase payments will combine these two in a
   `sale` or `autoCapture` transaction as described in the section above.
 

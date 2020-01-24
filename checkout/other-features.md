@@ -193,7 +193,7 @@ underlying payments or transaction.
 
 {% include payment-url.md payment-order=true
 when="selecting the payment instrument Vipps or in the 3-D Secure verification
-for Credit Card Payments" %}
+for Card Payments" %}
 
 #### URLs Resource
 
@@ -280,7 +280,7 @@ The `items` property of the `paymentOrder` is an array containing items that wil
 {:.table .table-striped}
 | Required | Property                       | Type      | Description                                                                                                                                           |
 | :------: | :----------------------------- | :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-|          | `creditCard`                   | `object`  | The credit card object.                                                                                                                               |
+|          | `creditCard`                   | `object`  | The card object.                                                                                                                               |
 |          | └➔&nbsp;`rejectDebitCards`     | `bool`    | `true` if debit cards should be declined; otherwise `false` per default. Default value is set by Swedbank Pay and can be changed at your request.     |
 |          | └➔&nbsp;`rejectDebitCards`     | `bool`    | `true` if debit cards should be declined; otherwise `false` per default. Default value is set by Swedbank Pay and can be changed at your request.     |
 |          | └➔&nbsp;`rejectCreditCards`    | `bool`    | `true` if credit cards should be declined; otherwise `false` per default. Default value is set by Swedbank Pay and can be changed at your request.    |
@@ -784,10 +784,10 @@ The `Purchase` operation is used in all common purchase scenarios.
 ## Verify Payments
 
 The `Verify` operation lets you post verifications to confirm the validity of
-**credit card information**, without reserving or charging any amount. This
+**card information**, without reserving or charging any amount. This
 option is mainly used to initiate a recurring payment scenario where the card
 will be charged at a later date. The request body is equivalent to a `Purchase`
-order with credit card as the selected item.
+order with card as the selected item.
 A [recurrence token][payment-orders-resource] will be generated automatically,
 rendering the parameter `generateRecurrenceToken` unnecessary for this
 operation.
@@ -811,7 +811,7 @@ as the consumer might select and initiate a payment option that is not followed
 through successfully. I.e. if the consumer cancels an invoice payment, a cancel
 transaction will still be tied to that particular invoice payment resource. This
 payment resource will continue to exist, even if the consumer successfully
-should finish the purchase with a credit card payment instead.
+should finish the purchase with a card payment instead.
 
 {:.code-header}
 **Request**
@@ -1153,7 +1153,7 @@ following event argument object:
 {:.table .table-striped}
 | Property     | Type     | Description                                                                                                                                                      |
 | :----------- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `name`       | `string` | The name and identifier of specific instrument instances - i.e. if you deploy more than one type of credit card payments, they would be distinguished by `name`. |
+| `name`       | `string` | The name and identifier of specific instrument instances - i.e. if you deploy more than one type of card payments, they would be distinguished by `name`. |
 | `instrument` | `string` | `Creditcard`, `vipps`, `swish`, `invoice`. The instrument selected by the user.                                                                                  |
 
 ### `onPaymentCreated`

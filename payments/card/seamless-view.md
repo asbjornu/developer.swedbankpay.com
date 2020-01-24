@@ -96,7 +96,7 @@ sequenceDiagram
 ### 3-D Secure
 
 Swedbank Pay will handle 3-D Secure authentication when this is required.
-When dealing with credit card payments, 3-D Secure authentication of the
+When dealing with card payments, 3-D Secure authentication of the
 cardholder is an essential topic. There are two alternative outcome of a credit
 card payment:
 
@@ -337,7 +337,7 @@ loading the payment page in an `iframe` in our next step.
 ## Seamless View Front End
 
 You need to embed the script source on your site to create a hosted-view in an
-`iframe`; so that she can enter the credit card details in a secure Swedbank Pay
+`iframe`; so that she can enter the card details in a secure Swedbank Pay
 hosted environment. A simplified integration has these following steps:
 
 1. Create a container that will contain the Seamless View iframe: `<div

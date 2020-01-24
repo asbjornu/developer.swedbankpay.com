@@ -206,7 +206,7 @@ later do more captures on the same payment up to the total authorization amount.
 ```mermaid
 sequenceDiagram
   activate Merchant
-  Merchant->>-SwedbankPay: POST [Credit card captures]
+  Merchant->>-SwedbankPay: POST <rel:create-capture>
   activate SwedbankPay
   SwedbankPay-->>-Merchant: transaction resource
 ```
@@ -616,7 +616,7 @@ sequenceDiagram
   activate Merchant
   note left of Merchant: Callback by SwedbankPay
   Merchant-->>SwedbankPay: HTTP response
-  Merchant->>-SwedbankPay: GET [credit card payment]
+  Merchant->>-SwedbankPay: GET [card payment]
   activate SwedbankPay
   note left of Merchant: First API request
   SwedbankPay-->>-Merchant: payment resource

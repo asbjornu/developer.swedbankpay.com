@@ -10,10 +10,10 @@ When the consumer clicks on the link, a payment window opens." %}
 
 ### Introduction
 
-The Payment Link can be implemented for payment instruments listed below, using the
-Redirect platform and Swedbank Pay hosted payment page.
+The Payment Link can be implemented for payment instruments listed below, using
+the Redirect platform and Swedbank Pay hosted payment page.
 
-* [Credit card][payment-instruments-card-payment-pages]
+* [Card][payment-instruments-card-payment-pages]
 * [MobilePay][payment-instruments-mobilepay-payment-pages]
 * [Swish][swish]
 * [Vipps][vipps]
@@ -35,7 +35,7 @@ When the consumer clicks on the Payment Link, the Swedbank Pay payment page will
 open, letting the consumer enter the payment details (varying depending on
 payment instrument) in a secure Swedbank Pay hosted environment.
 {% if show-3d-secure %}
-When paying with credit card and if required, Swedbank Pay will handle 3-D
+When paying with card and if required, Swedbank Pay will handle 3-D
 Secure authentication.
 {% endif %}
 
@@ -92,8 +92,8 @@ page, similar to the examples below, where payment information can be entered.
 All valid options when posting in a payment with operation `Purchase`,
 are described in each payment instrument's respective API reference.
 Please see the general sequence diagrams for more information about payments
-in one-phase (e.g. [Swish][swish] and credit card with autocapture) and
-two-phase (e.g. [Credit card][credit-card], [MobilePay][mobile-pay],
+in one-phase (e.g. [Swish][swish] and card with autocapture) and
+two-phase (e.g. [Card][credit-card], [MobilePay][mobile-pay],
 [Vipps][vipps]).
 
 {% if show-authorization %}
@@ -114,8 +114,8 @@ transaction. It is possible to do a part-capture where you only capture a
 smaller amount than the authorized amount. You can later do more captures on the
 same payment up to the total authorization amount.
 
-If you want the credit card to be charged right away, you will have to specify
-that the _intent_ of the purchase is `AutoCapture`. The credit card will be
+If you want the card to be charged right away, you will have to specify
+that the _intent_ of the purchase is `AutoCapture`. The card will be
 charged and you don't need to do any more financial operations to this purchase.
 
 #### Cancel
@@ -143,7 +143,7 @@ The sequence diagrams display the high level process of the purchase, from
 generating a Payment Link to receiving a Callback.
 {% if show-3d-secure %}
 This in a generalized flow as
-well as a specific 3-D Secure enabled credit card scenario.
+well as a specific 3-D Secure enabled card scenario.
 {% endif %}
 
 {% include alert.html type="neutral" icon="info" body="
@@ -153,9 +153,9 @@ merchant site when the purchase is fulfilled. Don't rely on the callback being
 timed at any specific moment." %}
 
 {% if show-3d-secure %}
-When dealing with credit card payments, 3-D Secure authentication of the
+When dealing with card payments, 3-D Secure authentication of the
 cardholder is an essential topic.
-There are three alternative outcome of a credit card payment:
+There are three alternative outcome of a card payment:
 
 * 3-D Secure enabled - by default, 3-D Secure should be enabled,
   and Swedbank Pay will check if the card is enrolled with 3-D Secure.
@@ -226,7 +226,7 @@ sequenceDiagram
 
 [card-payment]: /assets/img/payments/card-payment.png
 [abort]: #abort
-[credit-card]: /payments/card
+[card]: /payments/card
 [mobile-pay]: /payments/mobile-pay
 [payment-instruments-card-payment-pages]: /payments/card/
 [payment-instruments-mobilepay-payment-pages]: /payments/mobile-pay/

@@ -1,7 +1,7 @@
 ## Recurring payments
 
 {% include jumbotron.html body="A recurring payment enables you to charge a
-credit card without any consumer interaction. When an initial payment token is
+card without any consumer interaction. When an initial payment token is
 generated subsequent payments is made through server-to-server requests. " %}
 
 ### Prerequisites
@@ -13,11 +13,11 @@ instrument details and a payment token to Swedbank Pay by initial purchase or
 There are two ways to initiate recurring payments procedures,
 depending on if you want to make an initial charge or not:
 
-* Initiate a recurring payment flow and **charge the credit card**.
+* Initiate a recurring payment flow and **charge the card**.
   This is done by creating a "Purchase Payment" and generating a
   recurrence token.
 
-* Initiate a recurring payment flow **without charging the credit card**.
+* Initiate a recurring payment flow **without charging the card**.
   This is done by creating  a "Verify Payment" and generating a recurrence
   token.
 
@@ -73,7 +73,7 @@ You have the following options after a server-to-server Recur payment `POST`.
 
 ##### Autorization (intent)
 
-* **Authorization (two-phase):** If you want the credit card to reserve the
+* **Authorization (two-phase):** If you want the card to reserve the
   amount, you will have to specify that the intent of the purchase is
   Authorization.
   The amount will be reserved but not charged.
@@ -83,7 +83,7 @@ You have the following options after a server-to-server Recur payment `POST`.
 
 ##### Capture (intent)
 
-* **AutoCapture (one-phase)**: If you want the credit card to be charged right
+* **AutoCapture (one-phase)**: If you want the card to be charged right
   away, you will have to specify that the intent of the purchase is AutoCapture.
   This is only allowed if the consumer purchases digital products. The credit
   card will be charged and you don't need to do any more financial operations to
@@ -105,7 +105,7 @@ This option is often used to initiate a recurring payment
 flow where you do not want to charge the consumer right away.
 
 {% include alert.html type="neutral" icon="info" body="
-Please note that all boolean credit card attributes involving rejection of
+Please note that all boolean card attributes involving rejection of
 certain card types are optional and set on contract level." %}
 
 {:.code-header}

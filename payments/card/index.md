@@ -48,7 +48,7 @@ and global way to initate a transaction with a customer. Choose between our
   integration).
 * You need to [redirect][redirect] the payer's browser to that specified URL, or
   embed the script source on your site to create a Hosted View in an `iframe`;
-  so that she can enter the credit card details in a secure Swedbank Pay hosted
+  so that she can enter the card details in a secure Swedbank Pay hosted
   environment.
 * Swedbank Pay will handle 3-D Secure authentication when this is required.
 * Swedbank Pay will redirect the payer's browser to - or display directly in the

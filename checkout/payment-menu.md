@@ -132,7 +132,7 @@ operation](after-payment#capture) as well." %}
 
 {% include payment-url.md payment-order=true
 when="selecting the payment instrument Vipps or in the 3-D Secure verification
-for Credit Card Payments" %}
+for Card Payments" %}
 
 ### Request
 
