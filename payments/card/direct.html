@@ -1,0 +1,1240 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000">
+        <meta name="application-name" content="Swedbank Pay Card Payments – Direct">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title"
+            content="Swedbank Pay Card Payments – Direct">
+        <meta name="msapplication-TileColor" content="#000">
+        <meta name="msapplication-TileImage" content="https://design.swedbankpay.com/v/4.3.0/icons/mstile-144x144.png">
+        <meta property="og:type" value="website" />
+        
+        <meta property="og:url" value="https://developer.swedbankpay.com/payments/card/direct.html" />
+        <meta property="og:title" value="Swedbank Pay Card Payments – Direct" />
+        <meta name="title" content="Swedbank Pay Card Payments – Direct" />
+        
+        <meta property="og:description" value="Swedbank Pay Developer Portal" />
+        <meta name="description" content="Swedbank Pay Developer Portal" />
+        
+        <meta property="og:image" value="/assets/img/swedbank-pay-developer-portal.png" />
+        <title>Swedbank Pay Card Payments – Direct</title>
+        <link rel="stylesheet" href="https://design.swedbankpay.com/v/4.3.0/styles/dg-style.css" />
+        <link rel="stylesheet" href="/assets/css/swedbank-pay-design-guide-theme.css" />
+        <link rel="stylesheet" href="/assets/css/prism.css" />
+        <link rel="shortcut icon" href="https://design.swedbankpay.com/v/4.3.0/icons/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://design.swedbankpay.com/v/4.3.0/icons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://design.swedbankpay.com/v/4.3.0/icons/favicon-32x32.png">
+        <link rel="apple-touch-icon" sizes="57x57"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-icon-1024x1024.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-320x460.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-640x920.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-640x1096.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-750x1294.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-1182x2208.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-1242x2148.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-748x1024.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-768x1004.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-1496x2048.png">
+        <link rel="apple-touch-startup-image"
+            media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)"
+            href="https://design.swedbankpay.com/v/4.3.0/icons/apple-touch-startup-image-1536x2008.png">
+        <link rel="icon" type="image/png" sizes="228x228" href="https://design.swedbankpay.com/v/4.3.0/icons/coast-228x228.png">
+        <script src="/assets/js/mermaid.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+        <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+        <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+        
+    </head>
+
+    <body>
+        <div id="designguide">
+            <header class="topbar topbar-md-wide designguide-header">
+                <button type="button" class="topbar-btn"><i class="material-icons topbar-btn-icon">menu</i></button>
+                <a href="https://developer.swedbankpay.com" class="topbar-logo"><img
+                        src="https://design.swedbankpay.com/v/4.3.0/img/swedbankpay-logo.svg" alt="logo"></a>
+                <nav class="topbar-nav">
+                    <div class="topbar-link-container">
+                        <button type="button" class="topbar-close"><i class="material-icons">close</i></button>
+
+                        
+                        
+
+                        
+
+                        <a 
+                            href="/"><span>Home</span></a>
+
+                        
+                        
+                        <a 
+                            href="/checkout/"><span>Checkout</span></a>
+                        
+                        
+                        <a 
+                            href="/payments/"><span>Payments</span></a>
+                        
+                        
+                        <a 
+                            href="/resources/"><span>Resources</span></a>
+                        
+
+                        <div class="topbar-info topbar-link-right">
+                            <div class="topbar-info-contact">
+                                <a href="https://github.com/SwedbankPay/developer.swedbankpay.com/tree/master/payments/card/direct.md" target="_blank"
+                                    rel="noopener noreferrer" title="Edit this page on GitHub">
+                                    <svg aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <title id="simpleicons-github-icon">Edit this page on GitHub</title>
+                                        <path
+                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="documentation">
+                <div class="row">
+                    <div class="col-xxl-2 col-md-3">
+                        <div class="doc-sidebar">
+                            
+                            <form class="doc-search" action="/search">
+                                <input type="text" class="form-control" name="q" id="tipue_search_input"
+                                    placeholder="Search..." autocomplete="off" pattern=".{3,}"
+                                    title="At least 3 characters">
+                            </form>
+                            
+                            
+                            <nav class="documentation-nav">
+                                
+                                
+                                <div class="nav-group active">
+                                    <div class="nav-heading">
+                                        <i class="material-icons">keyboard_arrow_right</i>
+                                        <span>Card Payments</span>
+                                    </div>
+
+                                    
+                                    <ul>
+                                        
+                                        
+                                        <li><a  href="/payments/card/"><span>Introduction</span></a></li>
+                                        
+                                        
+                                        <li><a  href="/payments/card/redirect"><span>Redirect</span></a></li>
+                                        
+                                        
+                                        <li><a  href="/payments/card/seamless-view"><span>Seamless View</span></a></li>
+                                        
+                                        
+                                        <li><a  aria-current="page" class="active"
+                                                 href="/payments/card/direct"><span>Direct</span></a></li>
+                                        
+                                        
+                                        <li><a  href="/payments/card/after-payment"><span>After Payment</span></a></li>
+                                        
+                                        
+                                        <li><a  href="/payments/card/other-features"><span>Other Features</span></a></li>
+                                        
+                                    </ul>
+                                    
+                                </div>
+                                
+                            </nav>
+                            
+                        </div>
+                    </div>
+
+                    <main class="doc-view col-xxl-10 col-md-9">
+                        <div class="doc-container">
+                            <h1>Swedbank Pay Card Payments – Direct</h1>
+                            <div class="row">
+                                <div class="doc-body col-lg-10">
+                                    
+                                    <div class="alert alert-complex alert-warning"><header class="alert-header">
+            
+                <i class="material-icons alert-icon">warning</i>
+      <h3>
+        
+        
+          Section under review
+        
+        
+      </header>
+    
+
+    
+        
+            <div class="alert-body">
+                <p>This section of the Developer Portal is under
+                      review and may be incomplete or contain minor errors.</p>
+            </div>
+        
+    
+</div>
+
+<div class="jumbotron">
+    <p>The Direct Payment scenario <strong>is used by
+customers that are compliant with PCI-DSS regulations</strong>, and is a way to
+implement card payments without using Swedbank Pay hosted payment page.</p>
+
+</div>
+
+<div class="alert alert-complex alert-danger">
+    <header class="alert-header">
+            
+                <i class="material-icons alert-icon">error</i>
+      <h3>
+        
+        
+          PCI-DSS Complicance
+        
+        
+      </header>
+    
+
+    
+        
+            <div class="alert-body">
+                <p>The direct integration option requires you to collect the card data on
+your website, which means it must be <a href="https://www.pcisecuritystandards.org/">PCI-DSS Compliant</a>.</p>
+            </div>
+        
+    
+</div>
+    
+      <h2 id="introduction">
+        
+        
+          Introduction <a href="#introduction" class="header-anchor"></a>
+        
+        
+      </h2>
+
+<ul>
+  <li>The payer places an order and you make a <code class="language-plaintext highlighter-rouge">POST</code> request towards Swedbank Pay
+with gathered <code class="language-plaintext highlighter-rouge">Purchase</code> information.</li>
+  <li>The action taken next is the <code class="language-plaintext highlighter-rouge">direct-authorization</code> operation that is returned
+in the first request. You <code class="language-plaintext highlighter-rouge">POST</code> the payer’s card data to the URL in
+the<a href="/payments/card/other-features#create-authorization-transaction"><code class="language-plaintext highlighter-rouge">direct-authorization</code> operation</a>.</li>
+  <li>If 3-D Secure authentication is required, you will then receive a URL where
+you will have to redirect the payer.</li>
+  <li>When the payment is completed, the payer needs to be redirected back to your
+merchant/webshop site.</li>
+  <li>Finally you make a <code class="language-plaintext highlighter-rouge">GET</code> request towards Swedbank Pay with the <code class="language-plaintext highlighter-rouge">paymentID</code>
+received in the first step, which will return the purchase result.</li>
+</ul>
+
+<p>The sequence diagram below shows a high level description of a complete
+purchase, and the requests you have to send to Swedbank Pay. The links will take
+you directly to the corresponding API description.</p>
+
+<pre><code class="language-mermaid">sequenceDiagram
+    participant Payer
+    participant Merchant
+    participant SwedbankPay as Swedbank Pay
+
+    activate Payer
+    Payer-&gt;&gt;+Merchant: start purchase
+    deactivate Payer
+    Merchant-&gt;&gt;+SwedbankPay: POST /psp/creditcard/payments
+    deactivate Merchant
+    note left of Merchant: First API Request
+    SwedbankPay--&gt;&gt;+Merchant: rel: direct-authorization
+    deactivate SwedbankPay
+    Merchant-&gt;&gt;+SwedbankPay: GET &lt;payment.id&gt;
+    deactivate Merchant
+    note left of Merchant: Second API request
+    SwedbankPay--&gt;&gt;+Merchant: rel: direct-authorization
+    deactivate SwedbankPay
+    Merchant--&gt;&gt;-Payer: display purchase result
+</code></pre>
+    
+      <h2 id="api-requests">
+        
+        
+          API Requests <a href="#api-requests" class="header-anchor"></a>
+        
+        
+      </h2>
+
+<p>The API requests are displayed in the <a href="/payments/card/other-features#purchase">purchase flow</a>.
+You can <a href="/payments/card/other-features#create-payment">create a card <code class="language-plaintext highlighter-rouge">payment</code></a> with following <code class="language-plaintext highlighter-rouge">operation</code>
+options:</p>
+
+<ul>
+  <li><a href="/payments/card/other-features#purchase"><code class="language-plaintext highlighter-rouge">Purchase</code></a></li>
+  <li><a href="/payments/card/other-features#recur"><code class="language-plaintext highlighter-rouge">Recur</code></a></li>
+  <li><a href="/payments/card/other-features#purchase"><code class="language-plaintext highlighter-rouge">Payout</code></a></li>
+  <li><a href="/payments/card/other-features#verify"><code class="language-plaintext highlighter-rouge">Verify</code></a></li>
+</ul>
+
+<p>Our <code class="language-plaintext highlighter-rouge">payment</code> example above uses the <a href="/payments/card/other-features#purchase"><code class="language-plaintext highlighter-rouge">Purchase</code></a> value which is
+explained below.</p>
+    
+      <h3 id="purchase">
+        
+        
+          Purchase <a href="#purchase" class="header-anchor"></a>
+        
+        
+      </h3>
+
+<p>A <code class="language-plaintext highlighter-rouge">Purchase</code> payment is a straightforward way to charge the card of the payer.
+It is followed up by posting a capture, cancellation or reversal transaction.</p>
+
+<p>An example of an abbreviated <code class="language-plaintext highlighter-rouge">POST</code> request is provided below. Each individual
+Property of the JSON document is described in the following section.
+An example of an expanded <code class="language-plaintext highlighter-rouge">POST</code> request is available in the
+<a href="/payments/card/other-features#purchase">other features section</a>.</p>
+
+<div class="alert  alert-success">
+    
+        
+            <i class="material-icons alert-icon">info</i>
+        
+    
+
+    
+        
+            <p>To minimize the risk for
+a challenge request (Strong Customer Authentication – “SCA”) on card payments,
+it’s recommended that you add as much data as possible to the <code class="language-plaintext highlighter-rouge">riskIndicator</code>
+object in the request below.</p>
+        
+    
+</div>
+
+<p class="code-header"><strong>Request</strong></p>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">POST</span> <span class="nn">/psp/creditcard/payments</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Authorization</span><span class="p">:</span> <span class="s">Bearer &lt;AccessToken&gt;</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
+
+<span class="p">{</span><span class="w">
+    </span><span class="nl">"payment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"operation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Purchase"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"intent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Authorization"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SEK"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"prices"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreditCard"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"vatAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Test Purchase"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"userAgent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Mozilla/5.0..."</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"nb-NO"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+            </span><span class="nl">"completeUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.com/payment-completed"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"cancelUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.com/payment-canceled"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"callbackUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.com/payment-callback"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"logoUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.com/payment-logo.png"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"termsOfServiceUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.com/payment-terms.pdf"</span><span class="p">,</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"payeeInfo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"payeeId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5cabf558-5283-482f-b252-4d58e06f6f3b"</span><span class="w">
+            </span><span class="nl">"payeeReference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CD1234"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"payeeName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Merchant1"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"productCategory"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A123"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"orderReference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"or123"</span><span class="p">,</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"riskIndicator"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"deliveryEmailAddress"</span><span class="p">:</span><span class="w"> </span><span class="s2">"olivia.nyhuus@payex.com"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"deliveryTimeFrameIndicator"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"preOrderDate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"19801231"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"preOrderPurchaseIndicator"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"shipIndicator"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"giftCardPurchase"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"reOrderPurchaseIndicator"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"pickUpAddress"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Olivia Nyhus"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"streetAddress"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Saltnestoppen 43"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coAddress"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"city"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Saltnes"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"zipCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1642"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"countryCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"NO"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th style="text-align: center">Required</th>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Type</th>
+      <th style="text-align: left">Description</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">payment</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">object</code></td>
+      <td style="text-align: left">The payment object</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">operation</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Determines the initial operation, that defines the type card payment created.<br /> <br /> <code class="language-plaintext highlighter-rouge">Purchase</code>. Used to charge a card. It is followed up by a capture or cancel operation.<br /> <br /> <code class="language-plaintext highlighter-rouge">Recur</code>.Used to charge a card on a recurring basis. Is followed up by a capture or cancel operation (if not Autocapture is used, that is).<br /> <br /><code class="language-plaintext highlighter-rouge">Payout</code>. Used to deposit funds directly to credit card. No more requests are necessary from the merchant side.<br /> <br /><code class="language-plaintext highlighter-rouge">Verify</code>. Used when authorizing a card withouth reserveing any funds.  It is followed up by a verification transaction.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">intent</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Authorization</code>. Reserves the amount, and is followed by a <a href="/payments/card/after-payment#cancellations">cancellation</a> or <a href="/payments/card/after-payment#capture">capture</a> of funds.<br /> <br /> <code class="language-plaintext highlighter-rouge">AutoCapture</code>. A one phase option that enable capture of funds automatically after authorization.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">currency</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">NOK, SEK, DKK, USD or EUR.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">prices</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">array</code></td>
+      <td style="text-align: left">The <code class="language-plaintext highlighter-rouge">prices</code> resource lists the prices related to a specific payment.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">type</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Use the generic type CreditCard if you want to enable all card brands supported by merchant contract. Use card brands like Visa (for card type Visa), MasterCard (for card type Mastercard) and others if you want to specify different amount for each card brand. If you want to use more than one amount you must have one instance in the prices node for each card brand. You will not be allowed to both specify card brands and CreditCard at the same time in this field. [See the Prices resource and prices object types for more information][price-resource].</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">amount</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">integer</code></td>
+      <td style="text-align: left">Amount is entered in the lowest monetary units of the selected currency. E.g. 10000 = 100.00 NOK, 5000 = 50.00 SEK.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">vatAmount</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">integer</code></td>
+      <td style="text-align: left">If the amount given includes VAT, this may be displayed for the user in the payment page (redirect only). Set to 0 (zero) if this is not relevant.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">description</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string(40)</code></td>
+      <td style="text-align: left">A textual description max 40 characters of the purchase.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">payerReference</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The reference to the payer (consumer/end user) from the merchant system. E.g mobile number, customer number etc.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">generatePaymentToken</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">boolean</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">true</code> or <code class="language-plaintext highlighter-rouge">false</code>. Set this to <code class="language-plaintext highlighter-rouge">true</code> if you want to create a paymentToken for future use as One Click.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">generateRecurrenceToken</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">boolean</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">true</code> or <code class="language-plaintext highlighter-rouge">false</code>. Set this to <code class="language-plaintext highlighter-rouge">true</code> if you want to create a recurrenceToken for future use Recurring purchases (subscription payments).</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">userAgent</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The user agent reference of the consumer’s browser - [see user agent definition][user-agent-definition]</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">language</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">nb-NO</code>, <code class="language-plaintext highlighter-rouge">sv-SE</code> or <code class="language-plaintext highlighter-rouge">en-US</code>.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">urls</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">object</code></td>
+      <td style="text-align: left">The object containing URLs relevant for the <code class="language-plaintext highlighter-rouge">payment</code>.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">hostUrls</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">array</code></td>
+      <td style="text-align: left">The array of URLs valid for embedding of Swedbank Pay Hosted Views. If not supplied, view-operation will not be available.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">completeUrl</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URL that Swedbank Pay will redirect back to when the payer has completed his or her interactions with the payment. This does not indicate a successful payment, only that it has reached a final (complete) state. A <code class="language-plaintext highlighter-rouge">GET</code> request needs to be performed on the payment to inspect it further.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">cancelUrl</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URI to redirect the payer to if the payment is canceled. Only used in redirect scenarios. Can not be used simultaneously with <code class="language-plaintext highlighter-rouge">paymentUrl</code>; only <code class="language-plaintext highlighter-rouge">cancelUrl</code> or <code class="language-plaintext highlighter-rouge">paymentUrl</code> can be used, not both.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">paymentUrl</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URI that Swedbank Pay will redirect back to when the view-operation needs to be loaded, to inspect and act on the current status of the payment. Only used in Seamless Views. If both <code class="language-plaintext highlighter-rouge">cancelUrl</code> and <code class="language-plaintext highlighter-rouge">paymentUrl</code> is sent, the <code class="language-plaintext highlighter-rouge">paymentUrl</code> will used.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">callbackUrl</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URL that Swedbank Pay will perform an HTTP <code class="language-plaintext highlighter-rouge">POST</code> against every time a transaction is created on the payment. See <a href="/payments/card/other-features#callback">callback</a> for details.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">logoUrl</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URL that will be used for showing the customer logo. Must be a picture with maximum 50px height and 400px width. Require https.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">termsOfServiceUrl</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">A URL that contains your terms and conditions for the payment, to be linked on the payment page. Require https.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">payeeInfo</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The <code class="language-plaintext highlighter-rouge">payeeInfo</code> object, containing information about the payee.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">payeeId</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">This is the unique id that identifies this payee (like merchant) set by Swedbank Pay.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✔︎︎︎︎︎</td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">payeeReference</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string(50*)</code></td>
+      <td style="text-align: left">A unique reference from the merchant system. It is set per operation to ensure an exactly-once delivery of a transactional operation. See [payeeReference][payee-reference] for details.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">payeeName</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The payee name (like merchant name) that will be displayed to consumer when redirected to Swedbank Pay.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">productCategory</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">A product category or number sent in from the payee/merchant. This is not validated by Swedbank Pay, but will be passed through the payment process and may be used in the settlement process.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">orderReference</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">String(50)</code></td>
+      <td style="text-align: left">The order reference should reflect the order reference found in the merchant’s systems.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">subsite</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">String(40)</code></td>
+      <td style="text-align: left">The subsite field can be used to perform [split settlement][split-settlement] on the payment. The subsites must be resolved with Swedbank Pay [reconciliation][settlement-and-reconciliation] before being used.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">riskIndicator</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">array</code></td>
+      <td style="text-align: left">This <strong>optional</strong> array consist of information that helps verifying the payer. Providing these fields decreases the likelyhood of having to promt for 3-D Secure authenticaiton of the payer when they are authenticating the purchacse.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">deliveryEmailAddress</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br /> For electronic delivery, the email address to which the merchandise was delivered.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">deliveryTimeFrameIndicator</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br /> Indicates the merchandise delivery timeframe.<br />01 (Electronic Delivery)<br />02 (Same day shipping)<br />03 (Overnight shipping)<br />04 (Two-day or more shipping)<br /></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">preOrderDate</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br />For a pre-ordered purchase. The expected date that the merchandise will be available.<br />FORMAT: “YYYYMMDD”</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">preOrderPurchaseIndicator</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br /> Indicates whether Cardholder is placing an order for merchandise with a future availability or release date.<br />01 (Merchandise available)<br />02 (Future availability)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">shipIndicator</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br />Indicates shipping method chosen for the transaction.<br /> 01 (Ship to cardholder’s billing address)<br />02 (Ship to another verified address on file with merchant)<br />03 (Ship to address that is different than cardholder’s billing address)<br />04 (Ship to Store / Pick-up at local store. Store address shall be populated in shipping address fields)<br />05 (Digital goods, includes online services, electronic giftcards and redemption codes)<br />06 (Travel and Event tickets, not shipped)<br />07 (Other, e.g. gaming, digital service)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">giftCardPurchase</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">boolean</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br /><code class="language-plaintext highlighter-rouge">true</code> if this is a purchase of a gift card.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">reOrderPurchaseIndicator</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Optional (increased chance for frictionless flow if set).<br /> <br />Indicates whether Cardholder is placing an order for merchandise with a future availability or release date.<br />01 (Merchandise available)<br />02 (Future availability)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">pickUpAddress</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">object</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">name</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">streetAddress</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">coAddress</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">city</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">zipCode</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">countryCode</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">If shipIndicator set to 4, then prefil this.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="code-header"><strong>Response</strong></p>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
+
+<span class="p">{</span><span class="w">
+    </span><span class="nl">"payment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"number"</span><span class="p">:</span><span class="w"> </span><span class="mi">1234567890</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"instrument"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CreditCard"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"created"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-14T13:21:29.3182115Z"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"updated"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-14T13:21:57.6627579Z"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ready"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"operation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Purchase"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"intent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Authorization"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SEK"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"remainingCaptureAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"remainingCancellationAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"remainingReversalAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Test Purchase"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"payerReference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AB1234"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"initiatingSystemUserAgent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PostmanRuntime/3.0.1"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"userAgent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Mozilla/5.0..."</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sv-SE"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"prices"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/prices"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"transactions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/transactions"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"authorizations"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/authorizations"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"captures"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/captures"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"reversals"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/reversals"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"cancellations"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/cancellations"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/urls"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"payeeInfo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/payeeInfo"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/settings"</span><span class="w"> </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"operations"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"update-payment-abort"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.externalintegration.payex.com/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PATCH"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"application/json"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"redirect-authorization"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ecom.externalintegration.payex.com/creditcard/payments/authorize/afccf3d0016340620756d5ff3e08f69b555fbe2e45ca71f4bd159ebdb0f00065"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GET"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text/html"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"view-authorization"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ecom.externalintegration.payex.com/creditcard/core/scripts/client/px.creditcard.client.js?token=afccf3d0016340620756d5ff3e08f69b555fbe2e45ca71f4bd159ebdb0f00065"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GET"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"application/javascript"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+    
+      <h2 id="type-of-authorization---intent">
+        
+        
+          Type of authorization - Intent <a href="#type-of-authorization---intent" class="header-anchor"></a>
+        
+        
+      </h2>
+
+<ul>
+  <li><strong>Authorization (two-phase):</strong> If you want the credit card to reserve the
+amount, you will have to specify that the <code class="language-plaintext highlighter-rouge">intent</code> of the <code class="language-plaintext highlighter-rouge">Purchase</code> is
+<code class="language-plaintext highlighter-rouge">Authorization</code>. The amount will be reserved but not charged. You will later
+(i.e. when you are ready to ship the purchased products) have to make a
+<a href="/payments/card/after-payment#capture">Capture</a> or <a href="/payments/card/after-payment#cancellations">Cancel</a> request.</li>
+</ul>
+    
+      <h3 id="general">
+        
+        
+          General <a href="#general" class="header-anchor"></a>
+        
+        
+      </h3>
+
+<ul>
+  <li><em>No 3-D Secure and card acceptance</em>: There are optional paramers that can be
+used in relation to 3-D Secure and card acceptance. By default, most credit
+card agreements with an acquirer will require that you use 3-D Secure for card
+holder authentication. However, if your agreement allows you to make a card
+payment without this authentication, or that specific cards can be declined,
+you may adjust these optional parameters when creating the payment.</li>
+  <li><em>Defining CallbackURL</em>: When implementing a scenario, it is optional to set
+a <a href="/payments/card/other-features#callback">CallbackURL</a> in the <code class="language-plaintext highlighter-rouge">POST</code> request. If <code class="language-plaintext highlighter-rouge">CallbackURL</code> is set, then
+Swedbank Pay will send a postback request to this URL when the consumer has
+fulfilled the payment. <a href="/payments/card/other-features#callback">See the Callback API description here</a>.</li>
+</ul>
+    
+      <h2 id="type-of-capture---intent">
+        
+        
+          Type of capture - Intent <a href="#type-of-capture---intent" class="header-anchor"></a>
+        
+        
+      </h2>
+
+<ul>
+  <li><strong>AutoCapture (one-phase):</strong> If you want the credit card to be charged right
+away, you will have to specify that the <code class="language-plaintext highlighter-rouge">intent</code> of the <code class="language-plaintext highlighter-rouge">Purchase</code> is
+<code class="language-plaintext highlighter-rouge">AutoCapture</code>. The credit card will be charged and you don’t need to do any
+more financial operations to this purchase.</li>
+</ul>
+    
+      <h2 id="payment-resource">
+        
+        
+          Payment Resource <a href="#payment-resource" class="header-anchor"></a>
+        
+        
+      </h2>
+    
+      <h2 id="payment-resource-1">
+        
+        
+          Payment Resource <a href="#payment-resource-1" class="header-anchor"></a>
+        
+        
+      </h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">payment</code> resource is central to all payment instruments. All operations
+that target the payment resource directly produce a response similar to the
+example seen below. The response given contains all operations that are
+possible to perform in the current state of the payment.</p>
+
+<p class="code-header"><strong>Request</strong></p>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">GET</span> <span class="nn">/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">api.externalintegration.payex.com</span>
+<span class="na">Authorization</span><span class="p">:</span> <span class="s">Bearer &lt;AccessToken&gt;</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
+</code></pre></div></div>
+
+<p class="code-header"><strong>Response</strong></p>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
+
+<span class="p">{</span><span class="w">
+    </span><span class="nl">"payment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"number"</span><span class="p">:</span><span class="w"> </span><span class="mi">1234567890</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"created"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-14T13:21:29.3182115Z"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"updated"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-14T13:21:57.6627579Z"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ready"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"operation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Purchase"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"intent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Authorization"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"NOK"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"remainingCaptureAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"remainingCancellationAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">1500</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"remainingReversalAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Test Purchase"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"payerReference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AB1234"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"initiatingSystemUserAgent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PostmanRuntime/3.0.1"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"userAgent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Mozilla/5.0..."</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"nb-NO"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"prices"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/prices"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"payeeInfo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/payeeInfo"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/urls"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"transactions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/transactions"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"authorizations"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/authorizations"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"captures"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/captures"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"reversals"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/reversals"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"cancellations"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/cancellations"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"operations"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PATCH"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.externalintegration.payex.com/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"update-payment-abort"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"application/json"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GET"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ecom.externalintegration.payex.com/creditcard/core/scripts/client/px.creditcard.client.js?token=afccf3d0016340620756d5ff3e08f69b555fbe2e45ca71f4bd159ebdb0f00065&amp;operation=authorize"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"view-authorization"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"application/javascript"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GET"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ecom.externalintegration.payex.com/creditcard/payments/authorize/ec2a9b09-601a-42ae-8e33-a5737e1cf177"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"redirect-authorization"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text/html"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"POST"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.externalintegration.payex.com/psp/creditcard/payments/7e6cdfc3-1276-44e9-9992-7cf4419750e1/captures"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"create-capture"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"contentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"application/json"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th style="text-align: left">Property</th>
+      <th style="text-align: left">Type</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">payment</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">object</code></td>
+      <td style="text-align: left">The <code class="language-plaintext highlighter-rouge">payment</code> object contains information about the specific payment.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">id</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The relative URI of the payment.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">number</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">integer</code></td>
+      <td style="text-align: left">The payment  number , useful when there’s need to reference the payment in human communication. Not usable for programmatic identification of the payment, for that  id  should be used instead.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">created</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The ISO-8601 date of when the payment was created.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">updated</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The ISO-8601 date of when the payment was updated.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">state</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">Ready ,  Pending ,  Failed  or  Aborted . Indicates the state of the payment. This field is only for status display purposes. To</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">prices</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">object</code></td>
+      <td style="text-align: left">The <code class="language-plaintext highlighter-rouge">prices</code> resource lists the prices related to a specific payment.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">prices.id</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The relative URI of the current prices resource.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">description</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string(40)</code></td>
+      <td style="text-align: left">A textual description of maximum 40 characters of the purchase.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">payerReference</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The reference to the payer (consumer/end-user) from the merchant system, like e-mail address, mobile number, customer number etc.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">userAgent</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The <a href="https://en.wikipedia.org/wiki/User_agent">user agent</a> string of the consumer’s browser.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">language</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">nb-NO</code> , <code class="language-plaintext highlighter-rouge">sv-SE</code>  or  <code class="language-plaintext highlighter-rouge">en-US</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">urls</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URI to the  urls  resource where all URIs related to the payment can be retrieved.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└➔ <code class="language-plaintext highlighter-rouge">payeeInfo</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The URI to the  payeeinfo  resource where the information about the payee of the payment can be retrieved.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">operations</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">array</code></td>
+      <td style="text-align: left">The array of possible operations to perform</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">method</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The HTTP method to use when performing the operation.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">href</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The target URI to perform the operation against.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">└─➔ <code class="language-plaintext highlighter-rouge">rel</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td style="text-align: left">The name of the relation the operation has to the current resource.</td>
+    </tr>
+  </tbody>
+</table>
+    
+      <h3 id="operations">
+        
+        
+          Operations <a href="#operations" class="header-anchor"></a>
+        
+        
+      </h3>
+
+<p>The operations should be performed as described in each response and not as
+described here in the documentation.
+Always use the <code class="language-plaintext highlighter-rouge">href</code> and <code class="language-plaintext highlighter-rouge">method</code> as specified in the response by finding
+the appropriate operation based on its <code class="language-plaintext highlighter-rouge">rel</code> value.
+The only thing that should be hard coded in the client is the value of
+the <code class="language-plaintext highlighter-rouge">rel</code> and the request that will be sent in the HTTP body of the request
+for the given operation.</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th style="text-align: left">Operation</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">update-payment-abort</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">abort</code>s the payment order before any financial transactions are performed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">redirect-authorization</code></td>
+      <td style="text-align: left">Contains the URI that is used to redirect the consumer to the Swedbank Pay Payments containing the card authorization UI.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">view-authorization</code></td>
+      <td style="text-align: left">Contains the JavaScript <code class="language-plaintext highlighter-rouge">href</code> that is used to embed  the card authorization UI directly on the webshop/merchant site</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">create-capture</code></td>
+      <td style="text-align: left">Creates a <code class="language-plaintext highlighter-rouge">capture</code> transaction in order to charge the reserved funds from the consumer.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">create-cancellation</code></td>
+      <td style="text-align: left">Creates a <code class="language-plaintext highlighter-rouge">cancellation</code> transaction that cancels a created, but not yet captured payment.</td>
+    </tr>
+  </tbody>
+</table>
+    
+      <h3 id="3-d-secure-authentication">
+        
+        
+          3-D Secure authentication <a href="#3-d-secure-authentication" class="header-anchor"></a>
+        
+        
+      </h3>
+
+<p>When dealing with credit card payments, 3-D Secure authentication of the
+cardholder is an essential topic. There are two alternative outcomes of a credit
+card payment:</p>
+
+<ul>
+  <li><em>3-D Secure enabled (by default):</em> 3-D Secure should be enabled, and
+Swedbank Pay will check if the card is enrolled with 3-D Secure. This depends
+on the issuer of the card. If the card is not enrolled with 3-D Secure, no
+authentication of the cardholder is done.</li>
+  <li><em>Card supports 3-D Secure:</em> If the card is enrolled with 3-D Secure,
+Swedbank Pay will redirect the cardholder to the autentication mechanism that
+is decided by the issuing bank. Normally this will be done using BankID or
+Mobile BankID.</li>
+</ul>
+
+<pre><code class="language-mermaid">sequenceDiagram
+    participant Payer
+    participant Merchant
+    participant SwedbankPay as Swedbank Pay
+    participant IssuingBank
+
+  activate Payer
+  Payer-&gt;&gt;+Merchant: start purchase
+  deactivate Payer
+  Merchant-&gt;&gt;+SwedbankPay: POST /psp/creditcard/payments
+  deactivate Merchant
+  note left of Merchant: First API request
+  SwedbankPay--&gt;+Merchant: payment resource
+  deactivate SwedbankPay
+  Merchant--&gt;&gt;+SwedbankPay: GET &lt;payment.id&gt;
+  deactivate Merchant
+  note left of Merchant: Second API request
+  SwedbankPay--&gt;&gt;+Merchant: rel: direct-authorization
+  deactivate SwedbankPay
+  Merchant--&gt;&gt;+Payer: redirect to 3-D Secure page
+  deactivate Merchant
+  Payer-&gt;&gt;+IssuingBank: 3-D Secure authentication
+  deactivate Payer
+  note left of Payer: redirect to card issuing bank
+  IssuingBank--&gt;&gt;+Payer: redirect to merchant
+  deactivate IssuingBank
+  note left of Payer: redirect back to merchant
+  Payer-&gt;&gt;+Merchant: access merchant page
+  deactivate Payer
+  Merchant-&gt;&gt;+SwedbankPay: GET &lt;payment.id&gt;
+  deactivate Merchant
+  note left of Merchant: Third API request
+  SwedbankPay--&gt;&gt;+Merchant: rel: redirect-authorization
+  deactivate SwedbankPay
+  Merchant--&gt;&gt;Payer: display purchase result
+  deactivate Merchant
+</code></pre>
+    
+      <h2 id="options-after-posting-a-purchase-payment">
+        
+        
+          Options after posting a purchase payment <a href="#options-after-posting-a-purchase-payment" class="header-anchor"></a>
+        
+        
+      </h2>
+
+<ul>
+  <li>If the payment shown above is done as a two-phase (Authorization), you will
+need to implement the <a href="/payments/card/after-payment#capture">Capture</a> and <a href="/payments/card/after-payment#cancellations">Cancel</a> requests.</li>
+  <li><strong>Abort:</strong> It is possible to <a href="/payments/card/other-features#abort">abort a payment</a> if the payment has no
+successful transactions.</li>
+  <li>For <code class="language-plaintext highlighter-rouge">reversals</code>, you will need to implement the <a href="/payments/card/after-payment#reversals">Reversal</a> request.</li>
+  <li><strong>Callback from Swedbank Pay:</strong> Whenever changes to the payment occur a
+<a href="/payments/card/other-features#callback">Callback request</a> will be posted to the <code class="language-plaintext highlighter-rouge">callbackUrl</code>, generated
+when the payment was created.</li>
+</ul>
+
+<nav class="iterator d-flex">
+    
+        <a class="mr-auto btn btn-guiding" role="button" rel="prev" href="seamless-view">
+            Back: Seamless View
+        </a>
+    
+
+    
+        <a class="ml-auto btn btn-executive" role="button" rel="next" href="after-payment">
+            Next: After Payment
+        </a>
+    
+</nav>
+                                    
+                                </div>
+
+                                <div class="col-2 d-none d-lg-block">
+                                    <nav class="doc-toc">
+                                        <ul>
+  <li class="toc-2"><a href="#introduction">Introduction</a></li>
+  <li class="toc-2"><a href="#api-requests">API Requests</a></li>
+  <li class="toc-2"><a href="#type-of-authorization---intent">Type of authorization - Intent</a></li>
+  <li class="toc-2"><a href="#type-of-capture---intent">Type of capture - Intent</a></li>
+  <li class="toc-2"><a href="#payment-resource">Payment Resource</a></li>
+  <li class="toc-2"><a href="#payment-resource-1">Payment Resource</a></li>
+  <li class="toc-2"><a href="#options-after-posting-a-purchase-payment">Options after posting a purchase payment</a></li>
+</ul>
+
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+
+            <footer class="page-footer">
+                <p class="page-footer-rights">© Swedbank Pay</p>
+            </footer>
+        </div>
+
+        <script src="https://design.swedbankpay.com/v/4.3.0/scripts/dg.js"></script>
+        <script src="/assets/js/prism.js" data-manual></script>
+        <script src="/assets/js/swedbank-pay-design-guide-theme.js"></script>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156582708-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156582708-1');
+</script>
+
+        
+    </body>
+
+</html>
