@@ -4,6 +4,7 @@ exclude: ["Gemfile*", "Rakefile"]
 plugins:
   - "jekyll-github-metadata"
   - jemoji
+  - jekyll-remote-theme
 tipue_search:
   include:
     pages: true
